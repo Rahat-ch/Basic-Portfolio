@@ -1,63 +1,84 @@
-
-
-
 header {
   background: #ffffff;
   position: relative;
   width:100%;
-  height:auto;
-  overflow: auto;
+  height:60px;
   border-bottom: 1px solid #cccccc;
+  margin-bottom: 50px;
+
 }
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
 
 #Rahat {
   background-color:#4aaaa5;
-  color:white;
-  width:10%;
-  position: absolute;
-  height: 50px;
+  position: absolute;;
+  bottom: 0;
+  width: 15%;
+  height:40px;
+
+}
+
+#text{
+  color: white;
   text-align: center;
-
-
+  margin-top: 10px;
+  left: 15%;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  clear: both;
-  float: right;
+nav{
+  width:40%;
+  float:right;
+  margin-top: 25px;
+  text-align: center;
 }
-
 li{
   display: inline;
 
+
 }
 
-
-#about {
+nav a {
+  color: #777777;
+  padding: 5px 20px;
+  border-right: 1px solid grey;
 
 }
 
 body {
 
-background-image: url("assets/images/connectwork.png");
+background: url('../images/gravel.png');
 }
 
 h1 {
   font-family: 'Georgia', Times, "Times New Roman", serif;
   padding: 10px;
+    display: block;
+    font-size: 2em;
+    margin: .67__qem 0 .67em 0;
+    font-weight: bold
 }
 
 main {
+
   width:960px;
   margin: 0 auto;
   border: 1px solid #dddddd;
   overflow: auto;
+  background: #ffffff;
+  margin-top: 25px;
+  height: auto;
 
 }
+
 
 p{
   color: #777777;
@@ -76,15 +97,63 @@ p{
     display: table;
 }
 
+
+#wrapper {
+  float: left;
+  margin-right: 40px;
+}
+
+#wrapper2 {
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#wrapper1 {
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+#wrapper3 {
+  float: left;
+  margin-right: 40px;
+
+}
+
+#wrapper{
+  position: relative;
+}
+
+#wrapper1{
+  position: relative;
+}
+
+#wrapper2{
+  position: relative;
+}
+
+#wrapper3{
+  position: relative;
+}
+
+#Hangman #RPG #Trivia #Columbia #RPS {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: #ffffff;
+
+
+}
+
 footer {
   text-align: center;
   width: 100%;
   background: #666666;
   color: white;
-  height: 30px;
+  height: 20px;
   position: absolute;
   right: 0;
   bottom: 0;
   left:0;
-
+  border-top: 8px solid #4aaaa5;
 }
