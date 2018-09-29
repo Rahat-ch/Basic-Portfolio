@@ -49,7 +49,7 @@ li{
 nav a {
   color: #777777;
   padding: 5px 20px;
-  border-right: 1px solid grey;
+  border-right: 1px solid #cccccc;
 
 }
 
@@ -64,7 +64,16 @@ h1 {
     display: block;
     font-size: 2em;
     margin: .67__qem 0 .67em 0;
-    font-weight: bold
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+h1::after{
+  content: " ";
+  display:block;
+  border-bottom: 1px solid #cccccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 main {
@@ -75,7 +84,15 @@ main {
   overflow: auto;
   background: #ffffff;
   margin-top: 25px;
-  height: auto;
+  margin-bottom: 80px;
+  height: 650px;
+
+}
+
+#inner{
+  width:100%;
+  overflow: hidden;
+  height: 100%;
 
 }
 
@@ -101,6 +118,7 @@ p{
 #wrapper {
   float: left;
   margin-right: 40px;
+  margin-bottom: 40px;
 }
 
 #wrapper2 {
@@ -137,12 +155,63 @@ p{
   position: relative;
 }
 
-#Hangman #RPG #Trivia #Columbia #RPS {
+#Hangman, #RPG, #Trivia, #Columbia, #RPS {
   position: absolute;
   background-color: #4aaaa5;
   color: #ffffff;
+  top: 80%;
+  left:0px;
+  padding: 5px;
+  width: 240px;
+  text-align: center;;
 
+}
 
+label{
+  margin-left: 20px;
+}
+
+#Name {
+  width:80%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 25px;
+}
+
+#Email {
+  width:80%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 25px;
+}
+
+#Message {
+  width:80%;
+  margin-left: 20px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#Submit{
+  margin-left: 20px;
+}
+
+input[type=submit] {
+  background: #4aaaa5;
+  color: #ffffff;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  height: 50px;
+  width: 70px;
+  text-align: center;
+}
+
+#twitter{
+  margin-left: 800px;
 }
 
 footer {
@@ -151,9 +220,10 @@ footer {
   background: #666666;
   color: white;
   height: 20px;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left:0;
   border-top: 8px solid #4aaaa5;
+
 }
